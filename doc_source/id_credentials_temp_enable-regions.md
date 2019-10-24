@@ -54,7 +54,6 @@ After you activate a Region, you can direct AWS STS API calls to that Region\. T
 
 ```
 AWSSecurityTokenServiceClient stsClient = new AWSSecurityTokenServiceClient();
-stsClient.setRegion("eu-west-1");
 stsClient.setEndpoint("sts.eu-west-1.amazonaws.com");
 ```
 
